@@ -8,8 +8,14 @@
     "Nguyen P. Thien Dzung <dzungnguyenvn@outlook.com>"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/radamchin/vue-it-bigger",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:radamchin/vue-it-bigger.git"
+  },
   "type": "module",
   "files": [
+    "src",
     "dist"
   ],
   "main": "./dist/vue-it-bigger.umd.cjs",

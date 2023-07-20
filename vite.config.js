@@ -18,7 +18,7 @@ export default defineConfig({
     lib: {
       // the entry file that is loaded whenever someone imports
       // your plugin in their app
-      entry: resolve(__dirname, './src/main.js'),
+      entry: resolve(__dirname, './src/export.js'),
   
             // the exposed global variable
       // is required when formats includes 'umd' or 'iife'

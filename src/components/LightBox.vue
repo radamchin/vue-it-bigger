@@ -420,15 +420,18 @@ export default {
       if (this.$refs.video)
         this.$refs.video.pause();
       if (!this.closable) return;
-      this.$set(this, 'lightBoxShown', false)
+      //this.$set(this, 'lightBoxShown', false)
+      this.lightBoxShown = false;
     },
 
     nextImage() {
-      this.$set(this, 'select', (this.select + 1) % this.media.length)
+      //this.$set(this, 'select', (this.select + 1) % this.media.length)
+      this.select = (this.select + 1) % this.media.length;
     },
 
     previousImage() {
-      this.$set(this, 'select', (this.select + this.media.length - 1) % this.media.length)
+      //this.$set(this, 'select', (this.select + this.media.length - 1) % this.media.length)
+      this.select = (this.select + this.media.length - 1) % this.media.length;
     },
 
     enableImageTransition() {

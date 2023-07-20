@@ -1,7 +1,7 @@
 {
   "name": "vue-it-bigger",
   "description": "A simple image / (YouTube) video lightbox component for Vue.js. Based on vue-image-lightbox.",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "author": "Janos Rusiczki <janos.rusiczki@gmail.com>",
   "contributors": [
     "Nguyen P. Thien Dzung <dzungnguyenvn@outlook.com>"
@@ -90,9 +90,9 @@
     "rimraf": "^3.0.2",
     "style-loader": "^3.3.2",
     "url-loader": "^4.1.1",
-    "vue": "2.7.14",
+    "vue": "^3.3.4",
     "vue-jest": "^3.0.7",
-    "vue-loader": "^15.10.1",
+    "vue-loader": "^17.2.2",
     "vue-template-compiler": "2.7.14",
     "webpack": "5.76.1",
     "webpack-cli": "4.10.0",

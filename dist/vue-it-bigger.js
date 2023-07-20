@@ -1583,5 +1583,5 @@ function Yi(l, o, f, se, a, c) {
 }
 const Fi = /* @__PURE__ */ re(Pi, [["render", Yi]]);
 export {
-  Fi as LightBox
+  Fi as default
 };

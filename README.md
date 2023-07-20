@@ -1,11 +1,14 @@
 # Vue It Bigger!
 
+This port for vue3 by adamhinshaw [https://github.com/radamchin/vue-it-bigger](https://github.com/radamchin/vue-it-bigger)
+
 [![npm](https://img.shields.io/npm/v/vue-it-bigger?color=%2341BB13)](https://www.npmjs.com/package/vue-it-bigger)
 [![Build Status](https://travis-ci.com/haiafara/vue-it-bigger.svg?branch=master)](https://travis-ci.com/haiafara/vue-it-bigger)
 [![codecov](https://codecov.io/gh/haiafara/vue-it-bigger/branch/master/graph/badge.svg)](https://codecov.io/gh/haiafara/vue-it-bigger)
 [![Depfu](https://badges.depfu.com/badges/d97efabdc36483941354cb65cd36ed01/overview.svg)](https://depfu.com/github/haiafara/vue-it-bigger?project_id=13757)
 
-A simple image / (YouTube) video lightbox component for Vue.js 2. Based on [vue-image-lightbox](https://github.com/pexea12/vue-image-lightbox).
+A simple image / (YouTube) video lightbox component for Vue.js. Based on [vue-image-lightbox](https://github.com/pexea12/vue-image-lightbox).
+
 
 [![Vue It Bigger Screenshot](https://imgur.com/89eZHa7.jpg)](https://haiafara.github.io/vue-it-bigger/)
 
@@ -366,20 +369,28 @@ The Icon used for videos
 - `onStartIndex`: Emit when the current image is at the `startAt` index (specified in the properties).
 - `onLoad`: Emit when there are `lengthToLoadMore` images left in the array (specified in the properties). For example, if `lengthToLoadMore = 2` and there are 7 images in your array, when you reach index 4 (which means there are 2 images left which are not discovered yet), this event will be emitted. After that, if the image array are updated and there are totally 15 images, the event will be emitted at index 12.
 
-## Development (NPM / Yarn)
+## Project Setup
 
-Clone the repository, cd into it and run:
-
+```sh
+npm install
 ```
+
+### Compile and Hot-Reload for Development
+
+```sh
 npm run dev
-yarn dev
 ```
 
-After you add or modify something make sure the tests still pass:
+### Compile and Minify for Production
 
+```sh
+npm run build
 ```
-npm run test
-yarn test
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
 ```
 
 ## Release
@@ -401,3 +412,4 @@ yarn test
 ## License
 
 This project is licensed under the the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+

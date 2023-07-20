@@ -160,17 +160,17 @@
 </template>
 
 <script>
-import LeftArrowIcon from './LeftArrowIcon'
-import RightArrowIcon from './RightArrowIcon'
-import CloseIcon from './CloseIcon'
-import VideoIcon from './VideoIcon'
+import LeftArrowIcon from './LeftArrowIcon.vue'
+import RightArrowIcon from './RightArrowIcon.vue'
+import CloseIcon from './CloseIcon.vue'
+import VideoIcon from './VideoIcon.vue'
 
-let Hammer
+import Hammer from 'hammerjs'
 
 // istanbul ignore else
-if (typeof window !== 'undefined') {
+/*if (typeof window !== 'undefined') {
   Hammer = require('hammerjs')
-}
+}*/
 
 export default {
   components: {

@@ -30,9 +30,9 @@
 </template>
 
 <script>
-import LightBox from 'components/LightBox'
+import LightBox from '@/components/LightBox.vue'
 
-import media from './media'
+import media from '@/media'
 
 export default {
   components: {

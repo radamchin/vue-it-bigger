@@ -51,8 +51,8 @@ You can view [App.vue](src/App.vue) or [the demo](https://haiafara.github.io/vue
 In the `<script>` section of your component import it:
 
 ```javascript
-import LightBox from 'vue-it-bigger'
-import('vue-it-bigger/dist/vue-it-bigger.min.css') // when using webpack
+import LightBox from 'vue-it-bigger';
+import 'vue-it-bigger/style.css';
 ```
 
 Add it to the list of used components:
